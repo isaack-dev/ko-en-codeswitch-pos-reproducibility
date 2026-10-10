@@ -1,0 +1,17 @@
+# Public frozen-source/result checksums describe exact working-tree bytes.
+# Prevent Git's platform newline conversion from invalidating those hashes.
+# No renormalization, index changes or historical rewriting is done here.
+* whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/.gitattributes -text
+/.gitignore -text
+/README.md -text
+/LICENSE -text
+/requirements*.txt -text
+/environment.yml -text
+data/README.md -text
+guidelines/*.md -text
+experiments/configs/*.yaml -text
+scripts/** -text
+results/public_camera_ready/** -text
+docs/public_release/** -text
+reports/analysis_plans/pangyo_v1.2/PANGYO_V12_ANALYSIS_PLAN_FREEZE_2026-10-01.md -text

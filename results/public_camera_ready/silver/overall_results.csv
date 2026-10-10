@@ -1,0 +1,11 @@
+model,split,tokens,correct,accuracy,non_punct_tokens,non_punct_correct,non_punct_accuracy,macro_f1,weighted_f1
+majority_global,dev,98566,54565,0.5536,83143,54565,0.6563,0.0594,0.3945
+majority_global,test,98529,54508,0.5532,83022,54508,0.6565,0.0594,0.3941
+majority_lang,dev,98566,69988,0.7101,83143,54565,0.6563,0.142,0.5904
+majority_lang,test,98529,70015,0.7106,83022,54508,0.6565,0.1419,0.5911
+perceptron_joint,dev,98566,98556,0.9999,83143,83133,0.9999,0.9988,0.9999
+perceptron_joint,test,98529,98500,0.9997,83022,82993,0.9997,0.9987,0.9997
+perceptron_pipeline_panyo,dev,98566,98555,0.9999,83143,83132,0.9999,0.9992,0.9999
+perceptron_pipeline_panyo,test,98529,98503,0.9997,83022,82996,0.9997,0.9991,0.9998
+perceptron_pipeline_ud_transfer,dev,98566,57084,0.5791,83143,41661,0.5011,0.3378,0.6399
+perceptron_pipeline_ud_transfer,test,98529,57149,0.58,83022,41642,0.5016,0.3386,0.6396

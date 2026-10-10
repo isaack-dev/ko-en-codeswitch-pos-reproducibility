@@ -1,0 +1,12 @@
+{
+  "chance_expected_agreement": 0.1517649801056017,
+  "cohens_kappa_nominal_unweighted_17tags": 0.9496757932059022,
+  "nonpunct_agree": 2561,
+  "nonpunct_agreement": 0.9509840326773116,
+  "nonpunct_n": 2693,
+  "raw_agree": 3050,
+  "raw_agreement": 0.9573132454488387,
+  "scope": "Aggregate pre-adjudication agreement only; annotator-specific distributions and workbook metadata omitted.",
+  "tokens": 3186,
+  "upos_disagree": 136
+}

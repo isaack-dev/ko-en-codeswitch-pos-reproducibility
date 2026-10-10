@@ -1,0 +1,5 @@
+# Narrow dependencies for historical statistics and human-reference tools.
+# Baseline training/prediction and the public integrity check use Python stdlib.
+# Versions recorded in the completed clean run and installed release audit.
+numpy==2.4.4
+openpyxl==3.1.5

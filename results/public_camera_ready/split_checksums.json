@@ -1,0 +1,26 @@
+{
+  "algorithm": "sha256",
+  "partitions": {
+    "dev": {
+      "documents": 819,
+      "path": "data/processed/panyo_original_adp_docsplit_dev.conllu",
+      "real_tokens": 98566,
+      "sentences": 5690,
+      "sha256": "190c7ee936d9cc4654304a951c5c88a29674fda3ae386789cd4c8837718f8c80"
+    },
+    "test": {
+      "documents": 835,
+      "path": "data/processed/panyo_original_adp_docsplit_test.conllu",
+      "real_tokens": 98529,
+      "sentences": 5701,
+      "sha256": "2c1b1ec4cd0dd568f1e6cc74bd53c4ebccf386980d6e79e39c7d1ec1587642ff"
+    },
+    "train": {
+      "documents": 6579,
+      "path": "data/processed/panyo_original_adp_docsplit_train.conllu",
+      "real_tokens": 788802,
+      "sentences": 45450,
+      "sha256": "6b8cf9abc40c012bdb35cad800d812f7452cd00970bc66bc932f28a5fad07e4e"
+    }
+  }
+}

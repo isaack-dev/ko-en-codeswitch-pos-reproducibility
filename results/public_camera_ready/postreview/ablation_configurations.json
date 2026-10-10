@@ -1,0 +1,73 @@
+{
+  "architectures": [
+    "joint",
+    "routed"
+  ],
+  "boundary_note": "Removing p1=/n1= also removes BOS/EOS values carried by those identity features; no replacement boundary feature is introduced.",
+  "configurations": {
+    "A": {
+      "description": "original full-feature baseline",
+      "remove_prefixes": []
+    },
+    "B": {
+      "description": "remove current/neighbor word identities; retain character affixes",
+      "remove_prefixes": [
+        "w=",
+        "p1=",
+        "n1="
+      ]
+    },
+    "C": {
+      "description": "remove word identities and all current-token prefixes/suffixes",
+      "remove_prefixes": [
+        "w=",
+        "p1=",
+        "n1=",
+        "pre1=",
+        "pre2=",
+        "pre3=",
+        "suf1=",
+        "suf2=",
+        "suf3="
+      ]
+    }
+  },
+  "epochs": 5,
+  "experiment_id": "PANGYO-CR-POSTREVIEW-LEXICAL-ABLATION-001",
+  "gates": [
+    "verify original modules/split hashes",
+    "A checkpoint reproduction and exact DEV predictions/counts",
+    "B/C DEV verification",
+    "record source/config hashes before silver TEST",
+    "TEST A exact frozen-output reproduction before interpreting B/C"
+  ],
+  "known_outcome_access": "Frozen full-feature silver outcomes and v1.2 human outcomes were already available; this freeze does not claim original prospective preregistration.",
+  "nonpunct_definition": "exclude only frozen silver-reference UPOS=PUNCT; predictions do not determine eligibility",
+  "retained_features": [
+    "bias",
+    "lang=",
+    "shape=",
+    "hgl=",
+    "lat=",
+    "dig=",
+    "p1.lang=",
+    "n1.lang=",
+    "p1.tag=",
+    "p2.tag=",
+    "p1.tag+lang="
+  ],
+  "routed": "full sentence context, updates only matching KO/EN/OTHER; all-training sorted tag vocabulary; full-sentence language-specific decoding; fallback=NOUN",
+  "scope": "Post-review descriptive silver-reference diagnostics; new models are not inserted into frozen v1.2 evaluation; no human scoring, new mapping, model selection or significance testing.",
+  "seed": 42,
+  "seen_definition": "exact Python Unicode FORM.lower() membership in frozen Pangyo TRAIN, across all languages; unseen complement",
+  "test_groups": [
+    "ALL/punctuation included",
+    "ALL/nonpunct",
+    "seen/punctuation included",
+    "unseen/punctuation included",
+    "seen/nonpunct",
+    "unseen/nonpunct"
+  ],
+  "training": "original load_tagged_sents, same frozen TRAIN sentence order; unchanged original train with local random.Random(42)",
+  "unchanged": "Perceptron updates, averaging, 9-decimal weight rounding, greedy history, tag ties, initialization, epochs, RNG, labels, source tokenization, corpus and split"
+}

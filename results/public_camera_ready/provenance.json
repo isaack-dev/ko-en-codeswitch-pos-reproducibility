@@ -1,0 +1,154 @@
+{
+  "artifacts": [
+    {
+      "bytes": 1958,
+      "evidence_group": "v12",
+      "path": "results/public_camera_ready/v12/v12_primary_results.csv",
+      "sha256": "8db342157643fb20c922c55d26e5d2f17c976d29c6f054b44039bbae89f18f54",
+      "source": "outputs/camera_ready/v12_integration/v12_primary_results.csv"
+    },
+    {
+      "bytes": 847,
+      "evidence_group": "v12",
+      "path": "results/public_camera_ready/v12/v12_nonpunct_results.csv",
+      "sha256": "82c83bcf8e5fe7c8a0d53bce0749f65668acca82b9abf63cc5f9b0aab4518203",
+      "source": "outputs/camera_ready/v12_integration/v12_nonpunct_results.csv"
+    },
+    {
+      "bytes": 726,
+      "evidence_group": "v12",
+      "path": "results/public_camera_ready/v12/v12_equal_stratum_summary.csv",
+      "sha256": "d4e466a37bd5e11ac23546e9b8850918bfb2cbc7e79b4d08b31c2934611f7f0e",
+      "source": "outputs/camera_ready/v12_integration/v12_equal_stratum_summary.csv"
+    },
+    {
+      "bytes": 2993,
+      "evidence_group": "v12",
+      "path": "results/public_camera_ready/v12/v12_stratum_results.csv",
+      "sha256": "7aa7fe738e01d1bc2ee1682c1815421c7b8db3474f0a8b581234bcf514af1118",
+      "source": "outputs/camera_ready/v12_integration/v12_stratum_results.csv"
+    },
+    {
+      "bytes": 24388,
+      "evidence_group": "v12",
+      "path": "results/public_camera_ready/v12/v12_upos_metrics.csv",
+      "sha256": "b118d3a65d6cfaa0c8174c42c754280c6c1b28d59a3b691274075da1b9e7a8ea",
+      "source": "outputs/camera_ready/v12_integration/v12_upos_metrics.csv"
+    },
+    {
+      "bytes": 85801,
+      "evidence_group": "v12",
+      "path": "results/public_camera_ready/v12/v12_confusion_matrices.csv",
+      "sha256": "203c839e25782ef56a604bc4c69b234e3455ad467078c3d9dc9021de5c9d888e",
+      "source": "outputs/camera_ready/v12_integration/v12_confusion_matrices.csv"
+    },
+    {
+      "bytes": 8935,
+      "evidence_group": "v12",
+      "path": "results/public_camera_ready/v12/v12_reference_coverage.csv",
+      "sha256": "0d8555ccfdcfc5c3e6fea70632a6ef710b16082e7dc41ff0b06a395162e82a8f",
+      "source": "outputs/camera_ready/v12_integration/v12_reference_coverage.csv"
+    },
+    {
+      "bytes": 445,
+      "evidence_group": "v12",
+      "path": "results/public_camera_ready/v12/v12_pre_adjudication_metrics.json",
+      "sha256": "f130cb1f736b9288f6ebe6a69d39f58a9ed7dfb5f6d033d307d66169c1dca1ea",
+      "source": "outputs/camera_ready/v12_integration/v12_pre_adjudication_metrics.json",
+      "source_sha256": "78da0b9e7099e658f532b0b4b59a0084e4f84f6096e5373a95e9cfa47f1b8475",
+      "transformation": "Select aggregate agreement keys only; no change to metric values."
+    },
+    {
+      "bytes": 6393,
+      "evidence_group": "postreview",
+      "path": "results/public_camera_ready/postreview/ablation_results.csv",
+      "sha256": "0552babb02df379f524f5c3223430ddbb6017569f34acd3380508a4d6d272547",
+      "source": "outputs/camera_ready/additional_diagnostics/ablation_results.csv"
+    },
+    {
+      "bytes": 495,
+      "evidence_group": "postreview",
+      "path": "results/public_camera_ready/postreview/existing_unseen_authoritative_counts.csv",
+      "sha256": "99569957dab5e8fdf5b5464851cdadecd9ce0b75934e68973459537372043e18",
+      "source": "outputs/camera_ready/additional_diagnostics/existing_unseen_authoritative_counts.csv"
+    },
+    {
+      "bytes": 8153,
+      "evidence_group": "postreview",
+      "path": "results/public_camera_ready/postreview/existing_unseen_composition.csv",
+      "sha256": "6ce0441b93a506f83f479ea472b3d2c62e9e6626ac6201733432ed3fd00d8def",
+      "source": "outputs/camera_ready/additional_diagnostics/existing_unseen_composition.csv"
+    },
+    {
+      "bytes": 1266,
+      "evidence_group": "postreview",
+      "path": "results/public_camera_ready/postreview/frozen_mapping_rule_effects.csv",
+      "sha256": "fee743ea9a5e49091385c655560e1811cdd753f0e831d91307a78615ab23249d",
+      "source": "outputs/camera_ready/additional_diagnostics/frozen_mapping_rule_effects.csv"
+    },
+    {
+      "bytes": 498,
+      "evidence_group": "postreview",
+      "path": "results/public_camera_ready/postreview/frozen_mapping_scheme_effects.csv",
+      "sha256": "03bee746b4f735ca6dac23aa9a14dd4fcebdedfae170635352e2b36a072a3bea",
+      "source": "outputs/camera_ready/additional_diagnostics/frozen_mapping_scheme_effects.csv"
+    },
+    {
+      "bytes": 1421,
+      "evidence_group": "postreview",
+      "path": "results/public_camera_ready/postreview/silver_human_disagreement_by_pos.csv",
+      "sha256": "b61680dbb24fd687b50e5e87420e9f6f9955a187fb838311aeafb1ff0c8ce19a",
+      "source": "outputs/camera_ready/additional_diagnostics/silver_human_disagreement_by_pos.csv"
+    },
+    {
+      "bytes": 366,
+      "evidence_group": "postreview",
+      "path": "results/public_camera_ready/postreview/silver_human_disagreement_by_stratum.csv",
+      "sha256": "707deb5bd34686be956c0466c092ea0b90adba5b282886f4188d6e240e10ee2c",
+      "source": "outputs/camera_ready/additional_diagnostics/silver_human_disagreement_by_stratum.csv"
+    },
+    {
+      "bytes": 2593,
+      "evidence_group": "postreview",
+      "path": "results/public_camera_ready/postreview/silver_human_pos_confusions.csv",
+      "sha256": "3ab7c2bb70bfd3c1716b1af6ce1b68f47e11e25eb238387ad52682e1b0336fba",
+      "source": "outputs/camera_ready/additional_diagnostics/silver_human_pos_confusions.csv"
+    },
+    {
+      "bytes": 253,
+      "evidence_group": "postreview",
+      "path": "results/public_camera_ready/postreview/training_labels_by_language.csv",
+      "sha256": "6c0193f5246099c5f4004bc72c6f76eb9c85a19902a3067eec35b89db6ad1a22",
+      "source": "outputs/camera_ready/additional_diagnostics/training_labels_by_language.csv"
+    },
+    {
+      "bytes": 613,
+      "evidence_group": "postreview",
+      "path": "results/public_camera_ready/postreview/training_label_regularity_summary.json",
+      "sha256": "01a0c2a8a8ab576ec0788b942de3fe40b579d8da1cbcfe9518d672fe59412fcd",
+      "source": "outputs/camera_ready/additional_diagnostics/training_label_regularity_summary.json"
+    },
+    {
+      "bytes": 2650,
+      "evidence_group": "postreview",
+      "path": "results/public_camera_ready/postreview/ablation_configurations.json",
+      "sha256": "32298b1b92e8a562532d37e34e8c1e26c82d083d57521d5e3fe2cc95a613c7d6",
+      "source": "outputs/camera_ready/additional_diagnostics/ablation_configurations.json"
+    },
+    {
+      "bytes": 2469,
+      "evidence_group": "v11",
+      "path": "results/public_camera_ready/v11/model_metrics_representative.csv",
+      "sha256": "c293e49d2eefe3f5fb22c3337900fc886bc83935a2cecf1362e459625932ffc1",
+      "source": "outputs/final_clean_reproducibility_run/human_model_evaluation/model_metrics_representative.csv"
+    },
+    {
+      "bytes": 894,
+      "evidence_group": "silver",
+      "path": "results/public_camera_ready/silver/overall_results.csv",
+      "sha256": "23cfba15b574f92ed5db72e9f7f56952657b23f73c39abcb2084075109b958d9",
+      "source": "outputs/final_clean_reproducibility_run/baselines/results/overall_results.csv"
+    }
+  ],
+  "copy_policy": "Aggregate results: byte-identical copies except explicitly recorded metadata reductions. No token records or private workbooks. Not a full reproducibility package."
+}

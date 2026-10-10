@@ -1,0 +1,25 @@
+candidate_path,omission_reason
+environment.yml,Legacy broad environment; not the audited narrow runtime.
+experiments/configs/crf_joint.yaml,Legacy scaffold configuration uses generic split paths and different checkpoint format.
+experiments/configs/perceptron_joint.yaml,Legacy scaffold configuration uses generic split paths and different checkpoint format.
+experiments/configs/perceptron_pipeline.yaml,Legacy scaffold configuration uses generic split paths and different checkpoint format.
+guidelines/annotation_decisions.md,Historical working notes; unnecessary and ambiguous annotation-method assertions.
+guidelines/annotation_guideline.md,"Generic scaffold, not operative frozen human guideline."
+guidelines/pos_mapping.md,Generic particle mapping conflicts with operative study conventions.
+requirements.txt,Legacy optional scaffold dependencies; narrow reproduction requirements retained.
+scripts/boundary_analysis.py,Legacy generic scaffold; authoritative diagnostic implementation retained.
+scripts/build_ud_transfer_comparison.py,Historical comparison of superseded transfer outputs; corrected implementation retained.
+scripts/diagnostic_report_step4.py,Superseded pre-v1.2 narrative generator.
+scripts/error_analysis.py,Legacy generic scaffold; authoritative diagnostics retained.
+scripts/evaluate.py,Legacy generic scaffold; authoritative evaluation retained.
+scripts/make_paper_ready_figures.py,Superseded manuscript figure generator.
+scripts/make_paper_ready_tables.py,Superseded manuscript table generator.
+scripts/make_paper_ready_text.py,Superseded manuscript prose generator.
+scripts/preprocess.py,Legacy preprocessing scaffold; frozen reconstruction implementation retained.
+scripts/run_step4_diagnostics.py,Superseded historical orchestration; clean pipeline retained.
+scripts/run_step5_paper_ready.py,Superseded manuscript/table generator; manuscript excluded.
+scripts/split_data.py,Legacy generic split scaffold; not frozen document split.
+scripts/split_panyo.py,Superseded sentence split; frozen document splits must not be regenerated.
+scripts/train_crf.py,Unimplemented CRF placeholder; not a published experiment.
+scripts/train_perceptron.py,Legacy sklearn scaffold; differs from authoritative averaged perceptron.
+scripts/utils.py,Only used by omitted generic scaffold.

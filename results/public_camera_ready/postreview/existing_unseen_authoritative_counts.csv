@@ -1,0 +1,9 @@
+model,split,condition,total,correct,accuracy,error_count
+perceptron_joint,dev,seen,88536,88533,0.999966,3
+perceptron_joint,dev,unseen,10030,10023,0.999302,7
+perceptron_joint,test,seen,88672,88663,0.999899,9
+perceptron_joint,test,unseen,9857,9837,0.997971,20
+perceptron_pipeline_panyo,dev,seen,88536,88532,0.999955,4
+perceptron_pipeline_panyo,dev,unseen,10030,10023,0.999302,7
+perceptron_pipeline_panyo,test,seen,88672,88665,0.999921,7
+perceptron_pipeline_panyo,test,unseen,9857,9838,0.998072,19

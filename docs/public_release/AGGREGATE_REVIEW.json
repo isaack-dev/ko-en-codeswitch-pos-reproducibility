@@ -1,0 +1,107 @@
+[
+  {
+    "disclosure_review": "Counts, fixed categories and configuration; no token strings, sample IDs, human notes or individual identifiers.",
+    "path": "results/public_camera_ready/v12/v12_primary_results.csv",
+    "source_hash_matches": true
+  },
+  {
+    "disclosure_review": "Counts, fixed categories and configuration; no token strings, sample IDs, human notes or individual identifiers.",
+    "path": "results/public_camera_ready/v12/v12_nonpunct_results.csv",
+    "source_hash_matches": true
+  },
+  {
+    "disclosure_review": "Counts, fixed categories and configuration; no token strings, sample IDs, human notes or individual identifiers.",
+    "path": "results/public_camera_ready/v12/v12_equal_stratum_summary.csv",
+    "source_hash_matches": true
+  },
+  {
+    "disclosure_review": "Counts, fixed categories and configuration; no token strings, sample IDs, human notes or individual identifiers.",
+    "path": "results/public_camera_ready/v12/v12_stratum_results.csv",
+    "source_hash_matches": true
+  },
+  {
+    "disclosure_review": "Counts, fixed categories and configuration; no token strings, sample IDs, human notes or individual identifiers.",
+    "path": "results/public_camera_ready/v12/v12_upos_metrics.csv",
+    "source_hash_matches": true
+  },
+  {
+    "disclosure_review": "Counts, fixed categories and configuration; no token strings, sample IDs, human notes or individual identifiers.",
+    "path": "results/public_camera_ready/v12/v12_confusion_matrices.csv",
+    "source_hash_matches": true
+  },
+  {
+    "disclosure_review": "Counts, fixed categories and configuration; no token strings, sample IDs, human notes or individual identifiers.",
+    "path": "results/public_camera_ready/v12/v12_reference_coverage.csv",
+    "source_hash_matches": true
+  },
+  {
+    "disclosure_review": "Counts, fixed categories and configuration; no token strings, sample IDs, human notes or individual identifiers.",
+    "path": "results/public_camera_ready/v12/v12_pre_adjudication_metrics.json",
+    "source_hash_matches": true
+  },
+  {
+    "disclosure_review": "Counts, fixed categories and configuration; no token strings, sample IDs, human notes or individual identifiers.",
+    "path": "results/public_camera_ready/postreview/ablation_results.csv",
+    "source_hash_matches": true
+  },
+  {
+    "disclosure_review": "Counts, fixed categories and configuration; no token strings, sample IDs, human notes or individual identifiers.",
+    "path": "results/public_camera_ready/postreview/existing_unseen_authoritative_counts.csv",
+    "source_hash_matches": true
+  },
+  {
+    "disclosure_review": "Counts, fixed categories and configuration; no token strings, sample IDs, human notes or individual identifiers.",
+    "path": "results/public_camera_ready/postreview/existing_unseen_composition.csv",
+    "source_hash_matches": true
+  },
+  {
+    "disclosure_review": "Counts, fixed categories and configuration; no token strings, sample IDs, human notes or individual identifiers.",
+    "path": "results/public_camera_ready/postreview/frozen_mapping_rule_effects.csv",
+    "source_hash_matches": true
+  },
+  {
+    "disclosure_review": "Counts, fixed categories and configuration; no token strings, sample IDs, human notes or individual identifiers.",
+    "path": "results/public_camera_ready/postreview/frozen_mapping_scheme_effects.csv",
+    "source_hash_matches": true
+  },
+  {
+    "disclosure_review": "Counts, fixed categories and configuration; no token strings, sample IDs, human notes or individual identifiers.",
+    "path": "results/public_camera_ready/postreview/silver_human_disagreement_by_pos.csv",
+    "source_hash_matches": true
+  },
+  {
+    "disclosure_review": "Counts, fixed categories and configuration; no token strings, sample IDs, human notes or individual identifiers.",
+    "path": "results/public_camera_ready/postreview/silver_human_disagreement_by_stratum.csv",
+    "source_hash_matches": true
+  },
+  {
+    "disclosure_review": "Counts, fixed categories and configuration; no token strings, sample IDs, human notes or individual identifiers.",
+    "path": "results/public_camera_ready/postreview/silver_human_pos_confusions.csv",
+    "source_hash_matches": true
+  },
+  {
+    "disclosure_review": "Counts, fixed categories and configuration; no token strings, sample IDs, human notes or individual identifiers.",
+    "path": "results/public_camera_ready/postreview/training_labels_by_language.csv",
+    "source_hash_matches": true
+  },
+  {
+    "disclosure_review": "Counts, fixed categories and configuration; no token strings, sample IDs, human notes or individual identifiers.",
+    "path": "results/public_camera_ready/postreview/training_label_regularity_summary.json",
+    "source_hash_matches": true
+  },
+  {
+    "disclosure_review": "Counts, fixed categories and configuration; no token strings, sample IDs, human notes or individual identifiers.",
+    "path": "results/public_camera_ready/postreview/ablation_configurations.json",
+    "source_hash_matches": true
+  },
+  {
+    "disclosure_review": "Counts, fixed categories and configuration; no token strings, sample IDs, human notes or individual identifiers.",
+    "path": "results/public_camera_ready/v11/model_metrics_representative.csv",
+    "source_hash_matches": true
+  },
+  {
+    "disclosure_review": "Counts, fixed categories and configuration; no token strings, sample IDs, human notes or individual identifiers.",
+    "path": "results/public_camera_ready/silver/overall_results.csv",
+    "source_hash_matches": true
+  }
+]

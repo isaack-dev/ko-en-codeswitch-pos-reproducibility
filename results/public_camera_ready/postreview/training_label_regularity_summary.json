@@ -1,0 +1,25 @@
+{
+  "definition": "FORM.lower(), Python Unicode lowercase; no NFKC, stripping, lemma, affix matching or test vocabulary fitting",
+  "empirical_form_lang_majority_correct": 776080,
+  "empirical_form_majority_correct": 776080,
+  "form_conditional_entropy_bits": 0.058199611108655375,
+  "label_inventory": [
+    "ADP",
+    "ADV",
+    "AUX",
+    "CCONJ",
+    "DET",
+    "NOUN",
+    "NUM",
+    "PRON",
+    "PROPN",
+    "PUNCT",
+    "SCONJ",
+    "VERB"
+  ],
+  "lowercase_types": 105702,
+  "single_label_types": 102489,
+  "singleton_types": 67365,
+  "tokens_of_single_label_types": 682379,
+  "training_tokens": 788802
+}

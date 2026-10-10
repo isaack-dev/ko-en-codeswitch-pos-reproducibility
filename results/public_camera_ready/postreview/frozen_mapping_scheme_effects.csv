@@ -1,0 +1,4 @@
+mapping,affected_predictions,incorrect_to_correct,correct_to_incorrect,affected_still_incorrect,net_correct_tokens,full_reference_denominator,net_accuracy_change,raw_correct,mapped_correct,unaffected_incorrect,within_mapping_overlap_tokens,interaction_residual_correct_tokens
+conservative,49,39,0,10,39,3186,0.01224105461393597,2020,2059,1117,0,0
+panyo_coarse,208,47,101,60,-54,3186,-0.01694915254237288,2020,1966,1059,0,0
+ko_oriented,207,46,101,60,-55,3186,-0.01726302573760201,2020,1965,1060,0,0

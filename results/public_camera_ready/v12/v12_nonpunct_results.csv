@@ -1,0 +1,10 @@
+system,correct,eligible_tokens,accuracy,exact_accuracy,exclusion
+canonical_silver,1551,2696,0.5752967359050445,1551/2696,human-reference PUNCT only
+global_majority,925,2696,0.3431008902077151,925/2696,human-reference PUNCT only
+lang_aware_majority,925,2696,0.3431008902077151,925/2696,human-reference PUNCT only
+joint_perceptron,1552,2696,0.5756676557863502,1552/2696,human-reference PUNCT only
+pangyo_pipeline_perceptron,1552,2696,0.5756676557863502,1552/2696,human-reference PUNCT only
+ud_transfer_no_mapping,1530,2696,0.5675074183976261,1530/2696,human-reference PUNCT only
+ud_transfer_conservative,1569,2696,0.581973293768546,1569/2696,human-reference PUNCT only
+ud_transfer_panyo_coarse,1476,2696,0.5474777448071216,1476/2696,human-reference PUNCT only
+ud_transfer_ko_oriented,1475,2696,0.547106824925816,1475/2696,human-reference PUNCT only
