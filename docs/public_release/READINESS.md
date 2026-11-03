@@ -1,5 +1,9 @@
 # Final publication readiness report (2026-10-10)
 
+## Current publication status (2026-11-03)
+
+The reviewed camera-ready code-and-aggregate release was published on October 10, 2026 at [the public repository](https://github.com/isaack-dev/ko-en-codeswitch-pos-reproducibility). Its initial root commit is `6701575ebd4235a5010afcef3191667eed11e01a`. The assessment below records the pre-publication status and checks as they stood on October 10; it is retained as a historical audit, without implying additional experimental validation.
+
 ## Decision
 
 The minimal reviewed payload is prepared for maintainer approval; it is not yet committed or published. An initial root commit is deliberately pending the explicit instruction not to commit without approval. Proposed URL: https://github.com/isaack-dev/ko-en-codeswitch-pos-reproducibility . Name availability remains unverified, not reserved.

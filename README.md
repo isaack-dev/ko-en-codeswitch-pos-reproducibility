@@ -2,7 +2,7 @@
 
 Code and aggregate results for **A Baseline and Error Analysis Study of POS Tagging for Korean-English Code-Switching Text**, accepted to AACL-IJCNLP 2026 Student Research Workshop.
 
-This is a minimal code-and-aggregate release prepared independently of the private development repository. It contains no corpus payloads, private annotations, predictions or lexical checkpoints. Publication is pending maintainer approval. [Exact inventory](docs/public_release/PUBLISH_FILES.txt), [reproduction boundaries](docs/public_release/REPRODUCIBILITY.md), [executed checks](docs/public_release/VALIDATION.md) and [release readiness](docs/public_release/READINESS.md).
+This is a minimal code-and-aggregate release prepared independently of the private development repository. It contains no corpus payloads, private annotations, predictions or lexical checkpoints. The reviewed camera-ready code-and-aggregate release is publicly available at https://github.com/isaack-dev/ko-en-codeswitch-pos-reproducibility. [Exact inventory](docs/public_release/PUBLISH_FILES.txt), [reproduction boundaries](docs/public_release/REPRODUCIBILITY.md), [executed checks](docs/public_release/VALIDATION.md) and [release readiness](docs/public_release/READINESS.md).
 
 ## Evaluation settings
 
